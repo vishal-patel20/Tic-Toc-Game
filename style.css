@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    text-align: center;
+    background-color: #081b31;
+    justify-content: center;
+    font-size: 26px;
+    color: white;
+    height: 70px;
+    /* line-height: 70px; */ 
+    /* ese dene per vertically center ho ja jata hai jitni height ho utana */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+
+}
+.nav p{
+    padding-top: 20px;
+}
+.choices{
+  
+    height: 20vh;
+    width: 80vw;
+    display: flex;
+    gap : 30px;
+    justify-content: center;
+    margin:  64px auto ;
+    /* align-content: center; */
+/* text-align: center; */
+/* transform: translateX(45px); */
+/* transform: translateY(45px); */
+}
+.choice img{
+    border-radius: 50%;
+    /* border :2px solid red;   */
+    object-fit:cover;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+cursor: pointer;
+/* transform: scale3d(90deg */
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#user-score,#comp-score{
+    font-size: 4rem;
+}
+.msg-container{
+    text-align: center;
+    margin-top: 5rem;
+}
+#msg{
+border-radius: 10px;
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+}
